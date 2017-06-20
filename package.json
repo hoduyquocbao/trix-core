@@ -1,0 +1,27 @@
+{
+  "name": "@trix/core",
+  "version": "0.0.1",
+  "description": "first core app",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel": "^5.6.23"
+  },
+  "scripts": {
+    "start": "babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hồ Duy Quốc Bảo <hoduyquocbao@gmail.com> (https://trix.vn)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hoduyquocbao/trix-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoduyquocbao/trix-core/issues"
+  },
+  "homepage": "https://github.com/hoduyquocbao/trix-core#readme"
+}
