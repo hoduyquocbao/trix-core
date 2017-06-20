@@ -2,7 +2,7 @@
   "name": "@trix/core",
   "version": "0.0.1",
   "description": "first core app",
-  "main": "index.js",
+  "main": "./libs/index.js",
   "dependencies": {
     "express": "^4.15.3"
   },
@@ -10,7 +10,7 @@
     "babel": "^5.6.23"
   },
   "scripts": {
-    "start": "babel-node app.js",
+    "postinstall": "node ./scripts/install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
